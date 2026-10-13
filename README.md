@@ -45,9 +45,9 @@ Current result: **34 tests, 34 passing**.
 - *Tests.* Spec's LinkedChain null-add test expected "rejects, size unchanged"; the provided chain throws
   `IllegalArgumentException`, and the test asserts that. Added tests for Recipe, Ingredient, start(), duplicates, and EOF.
 
-**What changed in the LinkedChain?** Nothing — used unchanged. Only public methods are called:
+**What changed in the LinkedChain?** Did not change. Only used original file. public methods are called:
 `addToEnd`, `remove(T)`, `size`, `isEmpty`, `toArray`. We iterate with `toArray(new T[size()])` (O(n))
-instead of `get(i)` in a loop (which would be O(n²)). [TEAM: confirm you used the original file.]
+instead of `get(i)` in a loop (which would be O(n²)).
 
 **What happened to our unknowns?**
 - *Cleanest way to search a generic structure:* figured out — copy to a typed array with `toArray`,

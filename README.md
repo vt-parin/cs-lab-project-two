@@ -56,7 +56,6 @@ instead of `get(i)` in a loop (which would be O(n²)).
 - *remove on empty/absent:* figured out — `remove(T)` returns `false` and leaves the chain unchanged; tests cover both.
 - *Validate without duplicating code:* partly — prompt helpers (`promptNonBlank`, `promptAmount`) are shared,
   but rules also exist in the constructors. Still open: whether to centralize them in one validator class.
-- *Misunderstanding the generic design (biggest risk):* [TEAM: your honest answer].
 
 **What doesn't work yet?**
 - No stretch goals (What Can I Cook?, edit, tags, favorites).

@@ -91,10 +91,10 @@ Owners are placeholders — fill in your team's names.
 |---|---|---|
 | LinkedChain.java | CS 2114 staff | Provided; unchanged |
 | Ingredient.java | [Name] | GenAI-assisted draft; [reviewed/revised by] |
-| Recipe.java | [Name] | GenAI-assisted draft; [reviewed/revised by] |
+| Recipe.java | Allycia | GenAI-assisted draft; Reviewed/revised by Allycia |
 | CookbookApp.java | [Name] | GenAI-assisted draft; [reviewed/revised by] |
 | IngredientTest.java | [Name] | GenAI-assisted; [reviewed/tested by] |
-| RecipeTest.java | [Name] | GenAI-assisted; [reviewed/tested by] |
+| RecipeTest.java | Allycia | GenAI-assisted; Reviewed/revised by Allycia |
 | CookbookAppTest.java | [Name] | GenAI-assisted; [reviewed/tested by] |
 | LinkedChainReuseTest.java | [Name] | GenAI-assisted; [reviewed/tested by] |
 | README.md | [Name] | GenAI-assisted draft; edited by [Name] |

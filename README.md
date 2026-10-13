@@ -77,27 +77,25 @@ instead of `get(i)` in a loop (which would be O(n²)). [TEAM: confirm you used t
 
 ## Next Steps
 
-Owners are placeholders — fill in your team's names.
 
-1. **Finish MVP polish** — [Owner]: separate ingredient-only search if the team wants it; multi-line instructions; centralize validation.
-2. **Decide on the tail pointer** — [Owner]: either modify `LinkedChain` (add a `tail`) to make appends O(1) as the spec promised, or update the spec/Big-O to match `addToEnd`.
-3. **Stretch goals** — [TEAM DECIDES]. Suggested: commit to *What Can I Cook?* and *Edit recipe*; drop *tags* and *favorites*. Mark each as committed or dropped here.
+1. **Finish MVP polish** — : separate ingredient-only search if the team wants it; multi-line instructions; centralize validation.
+2. **Decide on the tail pointer** — : either modify `LinkedChain` (add a `tail`) to make appends O(1) as the spec promised, or update the spec/Big-O to match `addToEnd`.
+3. **Stretch goals** — . Suggested: commit to *What Can I Cook?* and *Edit recipe*; drop *tags* and *favorites*. Mark each as committed or dropped here.
 4. **New tests** — one normal + one bad-input per new public method. E.g. `whatCanICook(ingredients)`: matching recipe / empty ingredient list; `editRecipe(name)`: change instructions / unknown recipe name.
-5. **Cleanup before final** — [Owner]: re-run all tests, update README and Big-O table.
+5. **Cleanup before final** — : re-run all tests, update README and Big-O table.
 
 ## Attribution
 
 | File | Who | How |
 |---|---|---|
 | LinkedChain.java | CS 2114 staff | Provided; unchanged |
-| Ingredient.java | [Name] | GenAI-assisted draft; [reviewed/revised by] |
-| Recipe.java | [Name] | GenAI-assisted draft; [reviewed/revised by] |
-| CookbookApp.java | [Name] | GenAI-assisted draft; [reviewed/revised by] |
-| IngredientTest.java | [Name] | GenAI-assisted; [reviewed/tested by] |
-| RecipeTest.java | [Name] | GenAI-assisted; [reviewed/tested by] |
-| CookbookAppTest.java | [Name] | GenAI-assisted; [reviewed/tested by] |
-| LinkedChainReuseTest.java | [Name] | GenAI-assisted; [reviewed/tested by] |
-| README.md | [Name] | GenAI-assisted draft; edited by [Name] |
+| Ingredient.java | [Rohit] | GenAI-assisted draft; |
+| Recipe.java | [Allycia] | GenAI-assisted draft; |
+| CookbookApp.java | [Ria] | GenAI-assisted draft; |
+| IngredientTest.java | [Rohit] | GenAI-assisted; |
+| RecipeTest.java | [Allycia] | GenAI-assisted; |
+| CookbookAppTest.java | [Tia] | GenAI-assisted; |
+| LinkedChainReuseTest.java | [Parin] | GenAI-assisted; |
+| README.md | [Parin] | Drafted; revised by GenAI |
 
-**GenAI note:** GenAI (Claude) generated the first drafts of the source, tests, and README from our
-specification and the provided LinkedChain. [TEAM: say what you read, ran, and changed, and edit this to be true.]
+**GenAI note:** Used GenAI to help fix errors and for understanding of class structures to implement
